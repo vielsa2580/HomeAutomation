@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >
+
+    <RelativeLayout
+        android:id="@+id/roomParentLL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" 
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            android:id="@+id/roomname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Chairman Cabin" />
+
+        
+       
+
+        <LinearLayout
+            android:id="@+id/abcd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/roomname"
+   
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" 
+            android:background="@drawable/leftline"
+            android:layout_toLeftOf="@+id/smallresidentimage">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical" 
+                android:layout_gravity="right">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" 
+                    android:layout_gravity="right">
+
+                    <TextView
+                        android:id="@+id/TVDevAvailVal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:text="Large Text"
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="5dp"
+                         />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="right" >
+
+                <TextView
+                    android:id="@+id/TVDevOnValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="fthyrthy"
+                    android:layout_gravity="right"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/smallresidentimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow" 
+            android:layout_marginRight="10dp"
+            />
+
+       
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+<!-- <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/roomParentFL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/roomParentLL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/roomname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dip"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="18dip"
+                android:text="room name"
+                android:textColor="@android:color/white"
+                android:textSize="20dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:weightSum="10" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="5"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TVDevAvail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="Devices: "
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/TVDevAvailVal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="5"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/TVDevOn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="On: "
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/TVDevOnValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout> -->

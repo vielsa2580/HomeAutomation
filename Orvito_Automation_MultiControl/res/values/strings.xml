@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Parent!</string>
+    <string name="app_name">Homevito</string>
+    <string name="link"><u>http://www.orvito.com/salesvitoplatform.php</u></string>
+
+    <color name="blue">#1281DD</color>
+    <color name="green">#73d00e</color>
+    <color name="orange">#ee9701</color>
+    <color name="lightblue">#26acaa</color>
+    <color name="purple">#7d3c9e</color>
+    <color name="skyblue">#2f9fe9</color>
+    <color name="clickgreen">#77AB77</color>
+    <color name="greenafterclick">#77FB77</color>
+    
+    <string name="userdir">Resident</string>
+
+</resources>

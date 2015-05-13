@@ -1,0 +1,203 @@
+{
+   "error":"","message":"Node list retrieved successfully",
+   
+   "nodeList":
+   [
+     {
+	     "grpId":"1","grpName":"MD cabin","groupNodes":
+	     [
+		     {"nodeId":"4",
+		     "nodeName":"MD-Node-2",
+		     "nodeNum":"2",
+		     "nodeTypeName":"bulb",
+		     "IpAddr":"192.168.1.100",
+		     "port":"55001",
+		     "devAuthToken":"50159950441349965060999999999999",
+		     "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-11 16:17:43"}},
+		     
+		     {"nodeId":"7",
+		     "nodeName":"MD-Node-5",
+		     "nodeNum":"5",
+		     "nodeTypeName":"fan",
+		     "IpAddr":"192.168.1.100",
+		     "port":"55001",
+		     "devAuthToken":"50159950441349965060999999999999",
+		     "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-11 16:17:43"}},
+		     
+		     {"nodeId":"6",
+		     "nodeName":"MD-Node-4",
+		     "nodeNum":"4",
+		     "nodeTypeName":"fan",
+		     "IpAddr":"192.168.1.100",
+		     "port":"55001",
+		     "devAuthToken":"50159950441349965060999999999999",
+		     "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-11 16:17:43"}},
+		     
+		     
+		     {"nodeId":"5",
+		     "nodeName":"MD-Node-3",
+		     "nodeNum":"3",
+		     "nodeTypeName":"bulb",
+		     "IpAddr":"192.168.1.100",
+		     "port":"55001",
+		     "devAuthToken":"50159950441349965060999999999999",
+		     "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-11 16:17:43"}},
+		     
+		     
+		     {"nodeId":"8",
+		     "nodeName":"MD-Node-6",
+		     "nodeNum":"6",
+		     "nodeTypeName":"bulb",
+		     "IpAddr":"192.168.1.100",
+		     "port":"55001",
+		     "devAuthToken":"50159950441349965060999999999999",
+		     "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-11 16:17:43"}},
+		     
+		     
+		     {"nodeId":"3",
+		     "nodeName":"MD-Node-1",
+		     "nodeNum":"1",
+		     "nodeTypeName":"fan",
+		     "IpAddr":"192.168.1.100",
+		     "port":"55001",
+		     "devAuthToken":"50159950441349965060999999999999",
+		     "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-11 16:17:42"}}
+		 ]
+		},
+		     
+		{"grpId":"2","grpName":"Chairman Cabin","groupNodes":
+		 [
+		     {"nodeId":"10",
+		     "nodeName":"CC-Node-1",
+		     "nodeNum":"1",
+		     "nodeTypeName":"fan",
+		     "IpAddr":"192.168.1.103",
+		     "port":"55001",
+		     "devAuthToken":"18422265143135036811899999999999",
+		     "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-16 08:15:30"}},
+		     
+		     
+		     {"nodeId":"11",
+		     "nodeName":"CC-Node-2",
+		     "nodeNum":"2",
+		     "nodeTypeName":"bulb",
+		     "IpAddr":"192.168.1.103",
+		     "port":"55001",
+		     "devAuthToken":"18422265143135036811899999999999",
+		     "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-16 08:15:30"}},
+		     
+		     
+		     {"nodeId":"12",
+		     "nodeName":"CC-Node-3",
+		     "nodeNum":"3",
+		     "nodeTypeName":"fan",
+		     "IpAddr":"192.168.1.103",
+		     "port":"55001",
+		     "devAuthToken":"18422265143135036811899999999999",
+		     "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-16 08:15:30"}},
+		     
+		     
+		     {"nodeId":"13",
+		     "nodeName":"CC-Node-4",
+		     "nodeNum":"4",
+		     "nodeTypeName":"bulb",
+		     "IpAddr":"192.168.1.103",
+		     "port":"55001",
+		     "devAuthToken":"18422265143135036811899999999999",
+		     "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-16 08:15:30"}},
+		     
+		     
+		     {"nodeId":"14",
+		     "nodeName":"CC-Node-5",
+		     "nodeNum":"5",
+		     "nodeTypeName":"bulb",
+		     "IpAddr":"192.168.1.103",
+		     "port":"55001",
+		     "devAuthToken":"18422265143135036811899999999999",
+		     "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-16 08:15:30"}},
+		     
+		     
+		     {"nodeId":"15",
+		     "nodeName":"CC-Node-6",
+		     "nodeNum":"6",
+		     "nodeTypeName":"fan",
+		     "IpAddr":"192.168.1.103",
+		     "port":"55001",
+		     "devAuthToken":"18422265143135036811899999999999",
+		     "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-16 08:15:30"}}
+		     ]
+		    },
+		    
+		     {"grpId":"3","grpName":"Manager Cabin", "groupNodes":
+		     [
+		       {"nodeId":"16",
+		       "nodeName":"MC-Node-1",
+		       "nodeNum":"1",
+		       "nodeTypeName":"fan",
+		       "IpAddr":"192.168.1.123",
+		       "port":"55001",
+		       "devAuthToken":"21471208921349880375999999999999",
+		       "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-10 16:46:16"}},
+		       
+		       {"nodeId":"17",
+		       "nodeName":"MC-Node-2",
+		       "nodeNum":"2",
+		       "nodeTypeName":"heater",
+		       "IpAddr":"192.168.1.123",
+		       "port":"55001",
+		       "devAuthToken":"21471208921349880375999999999999",
+		       "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-10 16:53:32"}},
+		       
+		       {"nodeId":"18",
+		       "nodeName":"MC-Node-3",
+		       "nodeNum":"3",
+		       "nodeTypeName":"fridge",
+		       "IpAddr":"192.168.1.123",
+		       "port":"55001",
+		       "devAuthToken":"21471208921349880375999999999999",
+		       "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-10 16:53:27"}},
+		       
+		       
+		       {"nodeId":"19",
+		       "nodeName":"MC-Node-4",
+		       "nodeNum":"4",
+		       "nodeTypeName":"lamp",
+		       "IpAddr":"192.168.1.123",
+		       "port":"55001",
+		       "devAuthToken":"21471208921349880375999999999999",
+		       "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-10 16:46:16"}},
+		       
+		       {"nodeId":"20",
+		       "nodeName":"MC-Node-5",
+		       "nodeNum":"5",
+		       "nodeTypeName":"tv",
+		       "IpAddr":"192.168.1.123",
+		       "port":"55001",
+		       "devAuthToken":"21471208921349880375999999999999",
+		       "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-10 16:46:16"}},
+		       
+		       {"nodeId":"21",
+		       "nodeName":"MC-Node-6",
+		       "nodeNum":"6",
+		       "nodeTypeName":"pc",
+		       "IpAddr":"192.168.1.123",
+		       "port":"55001",
+		       "devAuthToken":"21471208921349880375999999999999",
+		       "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-10 16:46:16"}}
+		       ]
+		      },
+		       
+		       {"grpId":"4","grpName":"Reception","groupNodes":
+		       [
+		        {"nodeId":"9",
+		        "nodeName":"Reception PIR Sensor",
+		        "nodeNum":"7",
+		        "nodeTypeName":"pirsensor",
+		        "IpAddr":"192.168.1.100",
+		        "port":"55001",
+		        "devAuthToken":"50159950441349965060999999999999",
+		        "nodeStatusRec":{"state":"0","status":"","timeStamp":"2012-10-08 16:56:15"}}
+		        ]
+		       }
+  ]
+}

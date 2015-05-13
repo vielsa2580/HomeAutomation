@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="10" 
+    android:background="@drawable/transparent"
+    android:layout_marginBottom="1dp"
+    android:layout_marginLeft="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.5"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TVResidentDirectory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dip"
+            android:text="EMPLOYEE DIRECTORY"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/EDSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/search"
+            android:hint="Search"
+            android:singleLine="true"
+            android:maxLength="29"
+            android:imeOptions="flagNoExtractUi"
+            android:paddingLeft="10dip"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/LVResident"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_weight="8"
+        android:horizontalSpacing="10dp"
+        android:numColumns="3"
+        android:verticalSpacing="10dp" 
+        android:divider="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent">
+    </ListView><!-- <GridView
+        android:id="@+id/GVResident"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="5dip"
+        android:layout_weight="8"
+        android:horizontalSpacing="10dp"
+        android:numColumns="3"
+        android:verticalSpacing="10dp" >
+    </GridView> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="5dip"
+        android:layout_weight="8"
+        android:orientation="vertical"
+         android:id="@+id/LLNotfound" >
+
+        <TextView
+            android:id="@+id/TvNotfound"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Large Text"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This is a simple XML definition for a Animation. 
+	Over the course of 5 seconds, move 100 up and then 100 back down the Y axis.
+	
+		A vertical and/or horizontal motion. values from -100 to 100 
+			android:fromXDelta: Starting X offset. 
+			android:toXDelta: Ending X offset. 
+			android:fromYDelta: Starting Y offset.
+			android:toYDelta:  Ending Y offset. 
+	
+	 -->
+	<set
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+    <translate android:toYDelta="-100"
+               android:fillAfter="true"
+               android:duration="1500"/>
+	
+    <translate android:toYDelta="100"
+               android:fillAfter="true"
+               android:duration="1500"
+               android:startOffset="1500"/>
+               
+   
+               
+               
+	
+</set>

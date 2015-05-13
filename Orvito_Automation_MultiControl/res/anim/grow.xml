@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<!--
+		This is a simple XML definition for a Animation. Over
+		the course of 5 seconds, scale up and back		
+				A resizing animation.
+		android:fromXScale: Float. Starting X size offset, where 1.0 is no change.
+		android:toXScale: Float. Ending X size offset, where 1.0 is no change.
+		android:fromYScale: Float. Starting Y size offset, where 1.0 is no change.
+		android:toYScale: Float. Ending Y size offset, where 1.0 is no change.
+		android:pivotX: Float. The X coordinate to remain fixed when the object is scaled.
+		android:pivotY: Float. The Y coordinate to remain fixed when the object is scaled.
+		
+	-->
+<set
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<scale
+		android:pivotX="50%"
+		android:pivotY="50%"
+		android:fromXScale="1.0"
+		android:fromYScale="1.0"
+		android:toXScale="4.0"
+		android:toYScale="5.0"
+		android:duration="600" />
+	<scale
+		android:startOffset="2500"
+		android:duration="600"
+		android:pivotX="50%"
+		android:pivotY="50%"
+		android:fromXScale="1.0"
+		android:fromYScale="1.0"
+		android:toXScale="0.5"
+		android:toYScale="0.5" />
+</set>

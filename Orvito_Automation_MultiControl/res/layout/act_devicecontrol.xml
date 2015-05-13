@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/empdirbg">
+    
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/transparent" >
+    </android.support.v4.view.ViewPager>
+
+<!-- ...............................The right hand side of the page ............................... -->
+    
+    <!-- The complete detail of a resident this will be shown when a resident is clicked on the left-->
+<!--    <GridView 
+        android:id="@+id/devicesGrid"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:numColumns="3" >
+
+    </GridView> -->
+     <include 
+        android:id="@+id/LLresidentDetail"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        layout="@layout/devicesgrid"
+        android:background="@drawable/devicesbg" /> 
+
+    <!-- The complete detail of a resident This will be shown when the block selection is shown on the left-->
+<!--     <include
+        android:id="@+id/LLBlockDetail"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        layout="@layout/blockdetails"
+        android:background="@layout/border" /> -->
+
+</LinearLayout><!--   -->
+ <LinearLayout
+        android:id="@+id/loadinglayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+         >
+
+        <ProgressBar
+            android:id="@+id/userdirLoading"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="reload"
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Loading please wait...!!" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/reload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reloadbutton"
+        android:layout_centerInParent="true" 
+        android:text="Click to Reload"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:onClick="reload"
+        android:visibility="gone"/>
+</RelativeLayout>
